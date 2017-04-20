@@ -7,9 +7,9 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            E-commerce at scale Meetup Dublin
-tagline:          'An e-commerce meetup by people doing e-commerce'
-description:      'An e-commerce meetup by people doing e-commerce.'
+title:            E-commerce at scale
+tagline:          'An e-commerce meetup in Dublin by people doing e-commerce'
+description:      'An e-commerce meetup in Dublin by people doing e-commerce.'
 url:              ecommerce-meetup.github.io
 baseurl:          /
 
@@ -33,3 +33,5 @@ relative_permalinks: false
 gems:
   - jekyll-paginate
   - redcarpet
+
+pages:

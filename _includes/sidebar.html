@@ -1,6 +1,7 @@
 <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
+      <img src="{{ site.baseurl }}public/logo.jpg">
       <h1>
         <a href="{{ site.baseurl }}">
           {{ site.title }}
@@ -26,11 +27,11 @@
         {% endif %}
       {% endfor %}
 
-      <a class="sidebar-nav-item" href="{{ site.twitter }}">Twitter</a>
-      <a class="sidebar-nav-item" href="{{ site.meetup }}">Meetup page</a>
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
+      <a class="sidebar-nav-item" href="{{ site.twitter }}" target="_blank">Twitter</a>
+      <a class="sidebar-nav-item" href="{{ site.meetup }}" target="_blank">Meetup page</a>
+      <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+
     </nav>
 
-    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
   </div>
 </div>
